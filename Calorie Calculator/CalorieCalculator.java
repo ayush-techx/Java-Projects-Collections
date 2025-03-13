@@ -39,6 +39,8 @@ public class CalorieCalculator {
         System.out.print("Enter your height (in centimeters): ");
         double height = getValidDoubleInput(scanner);
 
+        scanner.nextLine();
+
         System.out.print("Enter your activity level (sedentary/moderate/active): ");
         String activityLevel = scanner.nextLine().trim().toLowerCase();
 
